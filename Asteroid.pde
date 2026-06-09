@@ -16,7 +16,17 @@ public void display()
 {
   fill(#767275);
   circle(x,y,40);
-  
-  
 }
+  public void move()
+  {
+    y+=2;
+    
+    if(y>height){
+      y=0;
+      x=random(width);
+    }
+    
+  }
+  
+  
 }
