@@ -73,7 +73,7 @@ asteroid3=new Asteroid(500,200);
  //user control - left and right , check boundary so not left the screen
  if(keyCode==LEFT && shipX>60)
  {
-  shipX-=SHIP_POSITION_CHANGE; //changes only if user presses the left key, decrease <-- x,to move left 
+  shipX-=SHIP_POSITION_CHANGE; //changes only if user presses the left key, decrease x,to move left 
   } 
   
  if(keyCode==RIGHT && shipX<740) 
